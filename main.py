@@ -262,7 +262,7 @@ class SignupHandler(BlogHandler):
 
 class LoginHandler(BlogHandler):
 
-    # TODO - The login code here is mostly set up for you, but there isn't a template to log in
+  
 
     def render_login_form(self, error=""):
         """ Render the login form with or without an error, based on parameters """
